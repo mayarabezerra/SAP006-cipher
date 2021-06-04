@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Cifra de César</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Cifra de César</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 <body>
-  <div id="root">
-    <h1>Cifra de César</h1>
-    
-  </div>
+  <main>
+    <h1>Cifra de César</h1> 
+    <form id="Cifra" autocomplete="off">
+      <input id="chave-deslocamento" name="text" value="Para começar, digite o número da sua chave de deslocamento">
+      <input id="texto" name= "text" value="Digite o texto a ser criptografado ou revelado.">
+      <input id="code-button" type="button" onclick="code()" value="Guardar um segredo!">
+      <input id="decode-button" type="button" onclick="decode()" value="Revelar seu segredo!">
+    </form>
+  </main>
   <script src="index.js" type="module"></script>
 </body>
 </html>

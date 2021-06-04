@@ -1,1 +1,73 @@
-/* css */
+ :root{
+    --color-terminal:#6d6c6a;
+    --border-redondo: 4px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#343237;
+    color: #d6d6d6;
+    margin-top: 150px;
+}
+
+input, button{
+    border: none;
+    outline: none;
+}
+
+main{
+    padding: 25px;
+    box-shadow: 8px 8px 35px rgb( 0 0 0 / 75%);
+    border-radius: 20px;
+}
+
+#chave-deslocamento{
+    margin: 10px 0 0;
+    padding: 10px;
+    color: #d6d6d6;
+    border-radius: var(--border-redondo);
+    width: 400px;
+    display: block;
+    background-color: var(--color-terminal);
+}
+
+#texto{
+    margin: 10px 0 0;
+    padding: 10px;
+    color: #d6d6d6;
+    border-radius: var(--border-redondo);
+    width: 400px;
+    min-height: 100px;
+    display: block;
+    background-color: var(--color-terminal);
+
+}
+
+h1{
+    text-align: center;
+}
+
+#code-button, #decode-button {
+    color: #d6d6d6;
+    border: var(--border-redondo);
+    background-color: var(--color-terminal);
+    width: 200px;
+    margin: 5px 0 0;
+    height: 50px;
+    display: block;
+}
+
+#decode-button{
+    float:right;
+}
+
+#code-button{
+    float:left;
+}
+
