@@ -6,15 +6,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 <body>
+  <header>
+      <ul class= "menu">
+        <li><a href="https://www.youtube.com/watch?v=_Eeg1LxVWa8" target="_blank">Curiosidades</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank"> Você sabe o que é a cifra de César?</a></li>
+      </ul>
+  </header>
   <main>
-    <h1>Cifra de César</h1> 
-    <form id="Cifra" autocomplete="off">
-      <input id="chave-deslocamento" name="text" value="Para começar, digite o número da sua chave de deslocamento">
-      <input id="texto" name= "text" value="Digite o texto a ser criptografado ou revelado.">
-      <input id="code-button" type="button" onclick="code()" value="Guardar um segredo!">
-      <input id="decode-button" type="button" onclick="decode()" value="Revelar seu segredo!">
-    </form>
-  </main>
+      <form class="container">
+        <h1>Cifra de César</h1> 
+        <div class="entradas">
+          <textarea id="offset" name="offset" type="number" placeholder="Digite aqui sua chave de deslocamento."></textarea>
+          <textarea id="texto" name="cipher" type="text" placeholder="Digite aqui o que você deseja criptografar."></textarea>
+          <textarea id="saidaTexto" name="cipher" type="text" placeholder="Aqui está sua mensagem."></textarea>
+          </div>
+        <div class="buttons">
+          <button id="code">Criptografar</button>
+          <button id="decode">Descriptografar</button>
+      </form>
+  </main> 
+  <footer>
+    <p>Olá, aqui vai algumas intruções para você: esse site foi pensado para quem quer entender mais sobre a Cifra de César e se divertir no universo da criptografia. Você tem a opção de escolher sua funcionalidade, se quer criar senhas seguras para email, criptografar algum segredo ou enviar códigos. 
+    <p>
+</footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>

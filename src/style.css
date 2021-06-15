@@ -1,73 +1,100 @@
- :root{
-    --color-terminal:#6d6c6a;
-    --border-redondo: 4px;
+*{
+    font-family: 'MuseuModerno', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+  
+html,
+body {
+    height: 100vh;
+} 
+
+body {
+    background-color: #343237;
 }
 
-*{
-    font-family: Arial, Helvetica, sans-serif;}
-
-body{
-    height: auto;
+.menu{
+    background-color: #d6d6d6;
+    height: 40px;
+    max-width: 100%;
+    margin: 10px auto;   
+}
+.menu a{
+    color: #343237;
+    text-decoration: none;
+}
+    
+    li, ul{
     display: flex;
+    line-height: 2.5;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#343237;
-    color: #d6d6d6;
-    margin-top: 150px;
+    margin: 20px auto;
+}
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: #343237;
+}
+form {
+    margin: 20px 0;
+    background-color:#d6d6d6;
+    padding: 30px 25px;
+    border-radius: 5px;
+    width: 38%;
 }
 
-input, button{
-    border: none;
-    outline: none;
-}
+form .entradas {
+    margin-bottom: 20px;
+  }
 
-main{
-    padding: 25px;
-    box-shadow: 8px 8px 35px rgb( 0 0 0 / 75%);
-    border-radius: 20px;
-}
-
-#chave-deslocamento{
-    margin: 10px 0 0;
-    padding: 10px;
-    color: #d6d6d6;
-    border-radius: var(--border-redondo);
-    width: 400px;
+#offset {
+    width: 450px;
     display: block;
-    background-color: var(--color-terminal);
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 15px;
+    color: #d6d6d6;
+    background-color: #343237;
+    border-radius: 5px;
 }
 
-#texto{
-    margin: 10px 0 0;
+#texto, #saidaTexto {
+    width: 450px;
+    display: block;
+    margin-top: 1px;
     padding: 10px;
+    font-size: 15px;
     color: #d6d6d6;
-    border-radius: var(--border-redondo);
-    width: 400px;
+    background-color: #343237;
+    border-radius: 5px;
+}
+
+#saidaTexto{
     min-height: 100px;
-    display: block;
-    background-color: var(--color-terminal);
-
 }
 
-h1{
-    text-align: center;
-}
-
-#code-button, #decode-button {
-    color: #d6d6d6;
-    border: var(--border-redondo);
-    background-color: var(--color-terminal);
-    width: 200px;
-    margin: 5px 0 0;
+button{
+    width: 209px;
+    margin: 10px 0 0;
     height: 50px;
-    display: block;
-}
-
-#decode-button{
-    float:right;
-}
-
-#code-button{
-    float:left;
-}
-
+    background-color: #343237;
+    color: #d6d6d6;
+    border-radius: 5px;
+   }
+        
+footer{
+    color: #d6d6d6;
+    text-align: center;
+    font-weight: lighter;
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+  }
