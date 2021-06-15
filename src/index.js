@@ -1,5 +1,6 @@
 import cipher from './cipher.js'
 
+
 document.getElementById("code").addEventListener("click", encode)
 function encode(e){
     e.preventDefault()
@@ -7,8 +8,8 @@ function encode(e){
     let string = document.getElementById("texto").value 
     let encodeCipher = cipher.encode(offset, string)
     document.getElementById("saidaTexto").value = encodeCipher 
-
 }
+
 document.getElementById("decode").addEventListener("click", decode) 
 function decode(e){
     e.preventDefault() 
