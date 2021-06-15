@@ -1,0 +1,100 @@
+*{
+    font-family: 'MuseuModerno', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+  
+html,
+body {
+    height: 100vh;
+} 
+
+body {
+    background-color: #343237;
+}
+
+.menu{
+    background-color: #d6d6d6;
+    height: 40px;
+    max-width: 100%;
+    margin: 10px auto;   
+}
+.menu a{
+    color: #343237;
+    text-decoration: none;
+}
+    
+    li, ul{
+    display: flex;
+    line-height: 2.5;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: #343237;
+}
+form {
+    margin: 20px 0;
+    background-color:#d6d6d6;
+    padding: 30px 25px;
+    border-radius: 5px;
+    width: 38%;
+}
+
+form .entradas {
+    margin-bottom: 20px;
+  }
+
+#offset {
+    width: 450px;
+    display: block;
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 15px;
+    color: #d6d6d6;
+    background-color: #343237;
+    border-radius: 5px;
+}
+
+#texto, #saidaTexto {
+    width: 450px;
+    display: block;
+    margin-top: 1px;
+    padding: 10px;
+    font-size: 15px;
+    color: #d6d6d6;
+    background-color: #343237;
+    border-radius: 5px;
+}
+
+#saidaTexto{
+    min-height: 100px;
+}
+
+button{
+    width: 209px;
+    margin: 10px 0 0;
+    height: 50px;
+    background-color: #343237;
+    color: #d6d6d6;
+    border-radius: 5px;
+   }
+        
+footer{
+    color: #d6d6d6;
+    text-align: center;
+    font-weight: lighter;
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+  }
