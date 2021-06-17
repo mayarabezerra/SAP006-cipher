@@ -94,6 +94,7 @@ Os principais usuários são pessoas que não tem conhecimento prévio sobre cri
 
 ## 5. UX/UI
 
+![Imagem Interface](https://github.com/mayarabezerra/SAP006-cipher/blob/c1ed4e270944d50fa6743f49f343e33993186ab5/prototipo.png)
 Interface
 
 Foi utilizado uma interface simples, com links que direcionam o usuário para páginas com conteúdos explicativos. Os botões e caixa de texto foram posicionados no centro da tela como meio de destaque para ferramenta da cifra, com espaços para a chave de deslocamento, botões para codificar/decodificar e o resultado. No rodapé da página contém instruções sobre a plataforma e seu uso. 
