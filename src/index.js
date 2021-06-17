@@ -17,6 +17,4 @@ function decode(e){
     let string = document.getElementById("texto").value 
     let decodeCipher = cipher.decode (offset, string) 
     document.getElementById("saidaTexto").value = decodeCipher
-}
-
-console.log("cipher");
+};

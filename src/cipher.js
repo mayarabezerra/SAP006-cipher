@@ -3,7 +3,7 @@ const cipher = {
 
   encode: function encode(offset,string) {
     let mensage= ""
-    let offsetNumber = parseInt(offset)
+    let offsetNumber = parseInt(offset) 
 
     for (let i=0; i< string.length; i++){   
       let cripto= string.charCodeAt(i) 
